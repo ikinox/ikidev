@@ -1,4 +1,4 @@
-## 쉬운 스프링 이야기 #1 1
+## 쉬운 스프링 이야기
 ### 2014.05.14
 
 ##### http://spring.io
@@ -50,6 +50,40 @@
  * ikidev 디렉토리내에 spring 디렉토리 생성
  * cd ikidev/spring 이동
  * touch spring.md (spring.md 파일을 하나 만듬)
+    * 파일 내용 작성... 예) 스터디 내용 작성
+ * cd .. (ikidev 디렉토리로 이동)
+ * git status
+    * spring/ (스프링이랑는 폴더가 생겼음...) 
+ * git add spring
+ * git status
+    * spring/ 에 spring.md 파일이 추가 됨
+ * git commit -m "spring doc start"
+    * Please tell me who you are. (당신은 누구?)
+    * run
+    * git confing --global user.email "you@example.com" (이메일 입력)
+    * git config --global user.name "your name" (이름 입력)
+ * 위메세지 내용은 github 접속계정 정보를 입력해야 github에 파일을 커밋 할수 있음.
+    *  git config --gloval user.email ikinox@naver.com  (따옴표는 필요없음)
+    *  git config --gloval user.name ikinox
+ * git commit -m "spring doc start"
+ * git status
+    * Onbranch master (현재 브랜치는 마스터 브랜치) 
+ * git remote -v
+    - 현재 origin alias 에는 https://github.com/ikinox/ikidev.git 로 되어 있음
+    * origin  https://github.com/ikinox/ikidev.git (fetch) (가져오기 주소)
+    * origin  https://github.com/ikinox/ikidev.git (push) (보내는 주소)
+ * git push origin master (서버로 보냄)
+    * Username for 'https://github.com': ikinox (이름)
+    * Password for 'https://ikinox@github.com' : 패스워드
+    * Counting objects: 5, done.
+    * Delta compression using up to 4 threads.
+    * Compressing objects: 100% (3/3), done. | 0 bytes/s, done.
+    * Writing objects: 100% (4/4), 1.38 KiB
+    * Total 4 (delta 0), reused 0 (delta 0)
+    * To https://github.com/ikinox/ikidev.git
+    *   f341480..fd66900  master -> master
+ * 올려진 파일 계정에서 확인 (올려진 파일 주소)
+    * ttps://github.com/ikinox/ikidev/blob/master/spring/spring.md#github 
  * 
 
 #### git 관련 오류
@@ -66,3 +100,11 @@
     * https://github.com/ikinox/ikidev.git 
  * 
   
+## Source tree (사용법 : )
+
+## 슬라이드쉐어
+#### http://www.slideshare.net
+ * spring 3 검색 : 여러 슬러이드 자료 볼수 있음
+ * http://www.slideshare.net/kenu
+
+
