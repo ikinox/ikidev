@@ -1,5 +1,5 @@
 ## 쉬운 스프링 이야기
-### 2014.05.14
+### 2014.05.14 시작
 
 ##### http://spring.io
 ##### http://okjsp.tistory.com/tag/shortcut 
@@ -105,6 +105,6 @@
 ## 슬라이드쉐어
 #### http://www.slideshare.net
  * spring 3 검색 : 여러 슬러이드 자료 볼수 있음
- * http://www.slideshare.net/kenu
+ * http://www.slideshare.net/kenu/okspring3x
 
 
